@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    color: white;
+    
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+/* box1 */
+.nav-logo{
+    height: 58px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+
+}
+.border:hover{
+    border: 2px solid white;
+}
+#image{
+    height: 50px;
+    width: 100px;
+    background-color: #0F1111;
+}
+/* box2 */
+.add-icon{
+    width: 88px;
+    height: 50px;
+    margin-top: 5;
+    margin-bottom: 5;
+    margin-right: 2;
+    padding-top: 5;
+    
+}
+.icon-2{
+    display: flex;
+    font-size: 1rem;
+    color: #ffffff;
+}
+.icon-1{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    background-color: #0F1111;
+    width: 500px;
+    height: 60px;
+
+}
+.search-icon{
+    background-color: #e1ad05;
+    height: 46px;
+    width: 45px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.search{
+    width: 400px;
+    height: 40px;
+}
+.option{
+    height: 46px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border: none;
+}
+/* box4 */
+.nav-flag{
+    width: 60px;
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag-icon{
+    color: white;
+}
+.text{
+    color: white;
+    font-weight: bold;
+}
+/* box5 */
+.accounts{
+    display: flex;
+}
