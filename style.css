@@ -105,7 +105,23 @@
 .sign-in{
     height: 56px;
 }
-.hello{
-    margin-top: 5px;
+/* box6 */
+.nav-orders{
+    width: 77px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
 }
-.
+/* box7 */
+.nav-cart{
+    width: 57px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart{
+    font-size: 25px;
+}
+
+
